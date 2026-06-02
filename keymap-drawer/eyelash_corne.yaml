@@ -248,3 +248,5 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
+- p: [44, 43]
+  k: $$mdi:apple-keyboard-option$$
