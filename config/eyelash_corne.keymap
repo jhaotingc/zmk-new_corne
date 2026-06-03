@@ -93,7 +93,7 @@
         compatible = "zmk,keymap";
 
         QWERTY {
-            display-name = "QWERTY";
+            display-name = "QWER";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R            &kp T                              &kp UP                &kp Y      &kp U            &kp I      &kp O    &kp P     &kp BSPC
 &td0       &kp A  &kp S  &kp D     &kp F            &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J            &kp K      &kp L    &kp SEMI  &kp RET
@@ -105,7 +105,7 @@
         };
 
         NUMBER {
-            display-name = "NUMBER";
+            display-name = "NUM";
             bindings = <
 &kp ESC    &kp N1           &kp N2           &kp N3           &kp N4           &kp N5                                              &mmv MOVE_UP                     &kp N6    &kp N7           &kp N8     &kp N9    &kp N0         &trans
 &kp TILDE  &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp TAB   &kp UP           &kp DEL    &kp HOME  &kp PAGE_UP    &trans
@@ -117,7 +117,7 @@
         };
 
         SYMBOL {
-            display-name = "SYMBOL";
+            display-name = "SYM";
             bindings = <
 &kp ESC    &kp EXCL   &kp AT     &kp HASH  &kp DLLR         &kp PRCNT                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
 &kp TILDE  &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC         &kp PIPE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
