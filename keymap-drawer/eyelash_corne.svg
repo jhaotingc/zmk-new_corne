@@ -283,8 +283,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-QWERTY">
-<text x="0" y="28" class="label" id="QWERTY">QWERTY:</text>
+<g transform="translate(40, 0)" class="layer-QWER">
+<text x="0" y="28" class="label" id="QWER">QWER:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -539,8 +539,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 318)" class="layer-NUMBER">
-<text x="0" y="28" class="label" id="NUMBER">NUMBER:</text>
+<g transform="translate(40, 318)" class="layer-NUM">
+<text x="0" y="28" class="label" id="NUM">NUM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -825,8 +825,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 637)" class="layer-SYMBOL">
-<text x="0" y="28" class="label" id="SYMBOL">SYMBOL:</text>
+<g transform="translate(40, 637)" class="layer-SYM">
+<text x="0" y="28" class="label" id="SYM">SYM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
