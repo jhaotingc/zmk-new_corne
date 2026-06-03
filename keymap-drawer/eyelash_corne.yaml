@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-option$$
-  - '&tap_to_layer'
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - SYMBOL
+  - '&tap_to_layer_1'
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - '&tap_to_layer_2'
   - RWIN
   NUMBER:
   - $$mdi:keyboard-esc$$
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -192,10 +192,10 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 15, 29]
+- p: [2, 1, 3, 4, 8, 9, 10, 11]
   k: '&soft_off'
