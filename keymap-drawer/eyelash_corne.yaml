@@ -197,5 +197,5 @@ layers:
   - '&tap_to_layer_0'
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [2, 1, 3, 4, 8, 9, 10, 11]
+- p: [2, 1, 3, 4]
   k: '&soft_off'
