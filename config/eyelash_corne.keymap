@@ -119,10 +119,10 @@
         SYMBOL {
             display-name = "SYMBOL";
             bindings = <
-&kp ESC    &kp EXCL        &kp AT     &kp HASH  &kp DLLR         &kp PRCNT                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&kp TILDE  &kp UNDERSCORE  &kp PLUS   &kp LBRC  &kp RBRC         &kp PIPE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
-&kp GRAVE  &kp MINUS       &kp EQUAL  &kp LBKT  &kp RBKT         &kp BSLH   &mkp MCLK                    &mmv MOVE_DOWN                   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
-                                      &trans    &tap_to_layer_3  &trans                                                                   &trans     &trans     &trans
+&kp ESC    &kp EXCL   &kp AT     &kp HASH  &kp DLLR         &kp PRCNT                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&kp TILDE  &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC         &kp PIPE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
+&kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT         &kp BSLH   &mkp MCLK                    &mmv MOVE_DOWN                   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
+                                 &trans    &tap_to_layer_3  &trans                                                                   &trans     &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
