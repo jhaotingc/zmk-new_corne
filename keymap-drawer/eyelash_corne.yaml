@@ -182,7 +182,7 @@ layers:
   - OUT BLE
   - RGB HUD
   - RGB SAD
-  - $$mdi:volume-off$$
+  - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
