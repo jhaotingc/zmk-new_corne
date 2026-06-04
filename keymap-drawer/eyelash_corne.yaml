@@ -113,8 +113,8 @@ layers:
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB BRI
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - RGB SPD
   - RGB HUI
   - RGB SAI
@@ -128,8 +128,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
-  - RGB BRD
+  - BT CLR ALL
+  - OUT BLE
   - RGB SPI
   - RGB HUD
   - RGB SAD
@@ -164,9 +164,9 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRI
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - RGB SPI
+  - RGB HUI
+  - RGB SAI
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -180,8 +180,8 @@ layers:
   - RGB EFF
   - RGB BRD
   - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB HUD
+  - RGB SAD
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
