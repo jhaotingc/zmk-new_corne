@@ -119,10 +119,10 @@
         SYMBOLS {
             display-name = "SYM";
             bindings = <
-&kp GRAVE  &kp EXCL        &kp AT        &kp HASH         &kp DLLR         &kp PRCNT                                     &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans     &bt BT_SEL 0    &bt BT_SEL 1  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME   &kp PG_UP  &trans     &trans    &trans    &trans
-&trans     &bt BT_CLR_ALL  &out OUT_BLE  &rgb_ug RGB_SPI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &mkp MCLK                    &mmv MOVE_DOWN                   &kp END    &kp PG_DN  &trans     &trans    &trans    &trans
-                                         &trans           &tap_to_layer_3  &trans                                                                         &trans     &trans     &trans
+&kp GRAVE  &kp EXCL        &kp AT        &kp HASH      &kp DLLR         &kp PRCNT                                  &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&trans     &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME   &kp PG_UP  &trans     &trans    &trans    &trans
+&trans     &bt BT_CLR_ALL  &out OUT_BLE  &trans        &trans           &trans        &mkp MCLK                    &mmv MOVE_DOWN                   &kp END    &kp PG_DN  &trans     &trans    &trans    &trans
+                                         &trans        &tap_to_layer_3  &trans                                                                      &trans     &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
