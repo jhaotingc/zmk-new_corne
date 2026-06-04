@@ -104,25 +104,25 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        NUMBER {
+        NUMBERS {
             display-name = "NUM";
             bindings = <
-&kp ESC  &kp N1           &kp N2           &kp N3           &kp N4           &kp N5                                              &mmv MOVE_UP                     &kp N6    &kp N7           &kp N8     &kp N9     &kp N0     &trans
-&trans   &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp TAB   &kp UP           &kp DEL    &kp MINUS  &kp EQUAL  &trans
-&trans   &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp LEFT  &kp DOWN         &kp RIGHT  &kp LBKT   &kp RBKT   &kp BSLH
-                                           &kp LSHFT        &trans           &trans                                                                               &trans    &tap_to_layer_3  &kp RSHFT
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                     &mmv MOVE_UP                     &kp N6    &kp N7           &kp N8     &kp N9     &kp N0     &trans
+&trans   &trans  &trans  &trans  &trans  &trans                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp TAB   &kp UP           &kp DEL    &kp MINUS  &kp EQUAL  &trans
+&trans   &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp LEFT  &kp DOWN         &kp RIGHT  &kp LBKT   &kp RBKT   &kp BSLH
+                         &trans  &trans  &trans                                                                      &trans    &tap_to_layer_3  &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
         };
 
-        SYMBOL {
+        SYMBOLS {
             display-name = "SYM";
             bindings = <
-&kp GRAVE  &kp EXCL   &kp AT     &kp HASH    &kp DLLR         &kp PRCNT                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp MINUS  &kp EQUAL  &trans
-&trans     &kp UNDER  &kp PLUS   &kp LBRC    &kp RBRC         &kp PIPE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &trans     &trans     &kp LBKT   &kp RBKT   &trans
-&trans     &kp MINUS  &kp EQUAL  &kp LBKT    &kp RBKT         &kp BSLH   &mkp MCLK                    &mmv MOVE_DOWN                   &kp MINUS  &kp EQUAL  &trans     &trans     &trans     &kp BSLH
-                                 &kp LSHIFT  &tap_to_layer_3  &trans                                                                   &trans     &trans     &kp RSHFT
+&kp GRAVE  &kp EXCL         &kp AT           &kp HASH         &kp DLLR         &kp PRCNT                                     &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&trans     &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME   &kp PG_UP  &trans     &trans    &trans    &trans
+&trans     &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &mkp MCLK                    &mmv MOVE_DOWN                   &kp END    &kp PG_DN  &trans     &trans    &trans    &trans
+                                             &trans           &tap_to_layer_3  &trans                                                                         &trans     &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
