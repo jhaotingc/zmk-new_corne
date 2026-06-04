@@ -131,10 +131,10 @@
         FN {
             display-name = "FN";
             bindings = <
-&studio_unlock  &kp F1        &kp F2          &kp F3        &kp F4           &kp F5                                      &mmv MOVE_UP                     &kp F6       &kp F7           &kp F8  &kp F9   &kp F10  &trans
-&bootloader     &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &trans           &trans  &kp F11  &kp F12  &trans
-&sys_reset      &bt BT_CLR    &bt BT_CLR_ALL  &out OUT_BLE  &trans           &trans        &kp C_MUTE                    &mmv MOVE_DOWN                   &sys_reset   &trans           &trans  &trans   &trans   &trans
-                                              &trans        &tap_to_layer_0  &trans                                                                       &trans       &tap_to_layer_0  &trans
+&studio_unlock  &kp F1           &kp F2           &kp F3        &kp F4           &kp F5                                      &mmv MOVE_UP                     &kp F6       &kp F7           &kp F8  &kp F9   &kp F10  &trans
+&bootloader     &trans           &rgb_ug RGB_BRI  &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &trans           &trans  &kp F11  &kp F12  &trans
+&sys_reset      &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &out OUT_BLE  &trans           &trans        &kp C_MUTE                    &mmv MOVE_DOWN                   &sys_reset   &trans           &trans  &trans   &trans   &trans
+                                                  &trans        &tap_to_layer_0  &trans                                                                       &trans       &tap_to_layer_0  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
