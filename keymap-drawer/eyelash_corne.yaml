@@ -179,7 +179,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - RGB EFF
   - RGB BRD
-  - OUT BLE
+  - RGB SPD
   - RGB HUD
   - RGB SAD
   - RGB TOG
